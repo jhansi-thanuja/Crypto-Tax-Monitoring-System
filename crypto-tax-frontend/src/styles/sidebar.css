@@ -1,0 +1,73 @@
+/* src/styles/sidebar.css */
+
+/* Sidebar container */
+.sidebar {
+  background-color: #2c3e50; /* Same color as navbar */
+  color: white;
+  height: 100%;
+  width: 60px;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+/* Expanded sidebar on hover */
+.sidebar:hover {
+  width: 250px;
+}
+
+/* Logo in sidebar */
+.sidebar-logo {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Sidebar menu */
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-menu ul li {
+  margin: 20px 0;
+}
+
+/* Sidebar links */
+.sidebar-menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.sidebar-menu ul li a:hover {
+  background-color: #34495e;
+}
+
+/* Icon styles */
+.sidebar-menu ul li .icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Hide text when collapsed */
+.sidebar .sidebar-menu ul li a span {
+  display: none;
+}
+
+/* Show text on hover */
+.sidebar:hover .sidebar-menu ul li a span {
+  display: inline;
+}
+
+/* Sidebar logo adjustments */
+.sidebar:hover .sidebar-logo h2 {
+  font-size: 1.5rem;
+  color : whitesmoke;
+}

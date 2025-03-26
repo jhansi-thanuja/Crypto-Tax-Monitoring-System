@@ -1,0 +1,15 @@
+/* ✅ Highlight Tax Info on hover */
+.sidebar-menu a[href="/taxinfo"] {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sidebar-menu a[href="/taxinfo"]:hover {
+    background-color: #ff9800; /* Custom color for Tax Info hover */
+    color: #fff;
+  }
+  
+  /* ✅ Style for Tax Info icon */
+  .sidebar-menu a[href="/taxinfo"] .icon {
+    color: #ff9800; /* Custom icon color for Tax Info */
+  }
+  

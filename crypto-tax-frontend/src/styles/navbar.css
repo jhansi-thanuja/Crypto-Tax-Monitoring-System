@@ -1,0 +1,20 @@
+/* ✅ Logout Button Styling */
+.logout-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* ✅ Auto width to fit content */
+}
+
+/* ✅ Align button to right corner */
+.navbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* ✅ Move button to the right */
+}
